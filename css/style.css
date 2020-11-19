@@ -1,0 +1,9 @@
+.img {
+    visibility: hidden;
+    box-sizing: border-box;
+    size: 2cm;
+}
+
+.board {
+    size: 10cm;
+}
