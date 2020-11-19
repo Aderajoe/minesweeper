@@ -1,9 +1,43 @@
-.img {
-    visibility: hidden;
-    box-sizing: border-box;
-    size: 2cm;
-}
-
-.board {
-    size: 10cm;
-}
+    * {
+        box-sizing: border-box;
+    }
+    
+    .body {
+        background-image: url(../images/mines.jpg);
+        height: 00px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 20%;
+        text-align: center;
+        padding-top: 00px;
+        margin-bottom: 30px;
+    }
+    
+    .img {
+        box-sizing: border-box;
+        size: 2cm;
+    }
+    
+    .board {
+        display: block;
+        margin-left: 500px;
+    }
+    
+    .shown {
+        opacity: 0.7;
+        background-color: greenyellow;
+    }
+    
+    .notShown {
+        opacity: 0.7;
+        background-color: green;
+    }
+    
+    .mineExp {
+        opacity: 0.5;
+        background-color: red;
+    }
+    
+    .checking {
+        background-color: navy;
+    }
