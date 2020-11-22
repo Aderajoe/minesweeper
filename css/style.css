@@ -36,8 +36,14 @@
     .mineExp {
         opacity: 0.5;
         background-color: red;
+        background-image: url(../images/mine.jfif);
     }
     
     .checking {
         background-color: navy;
+    }
+    
+    .flag {
+        background-color: yellow;
+        
     }
